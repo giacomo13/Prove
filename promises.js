@@ -1,6 +1,6 @@
 "use script";
 
-let giusto = 1;
+let giusto = 0;
 
 const myPromise = new Promise((resolve,reject) =>{
     
