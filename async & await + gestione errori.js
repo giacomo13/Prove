@@ -12,7 +12,7 @@ function resolveAfterMs(ms) {
     })
 }
 
-async function asyncCall(){
+async function asyncCall(){ //La parola chiave async fornisce il sistema di aspettare
     try{
         console.log("calling");
         const result = await resolveAfterMs(-1); //Prima di fornire il risultato, aspetta che finisca resolveAfterMs
