@@ -11,4 +11,5 @@ let book = {
   let v2 = Array.from(v); //creo una copia dell'array
   let v3 = v; //copio il riferimento all'array: se modifico v3, modifico anche v!
 
+  v3.push(4);
   console.log(v);
