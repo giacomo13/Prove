@@ -5,7 +5,7 @@ function wait(duration) {
     return new Promise((resolve,reject)=>{
 
         if (duration < 0)
-        reject(new Error("Zi che è sto tempo negativo"));
+        reject(new Error("Fra che è sto tempo negativo"));
         else
         setTimeout(resolve,duration);
     })
