@@ -1,15 +1,15 @@
 import {useState} from "react";
 import {Button} from "react-bootstrap";
 
-function Button(props){
+function MyButton(props){
     
     let [buttonLang,setButtonLang] = useState(props.lang);
 
     if(buttonLang === 'it')
-    return <button onClick={()=>setButtonLang('en')}>Ciao!</button>;
+    return <Button variant='primary' onClick={()=>setButtonLang('en')}>Ciao!</Button>;
     else
-    return <button onClick={()=>setButtonLang('it')}>Hello!</button>;
+    return <Button variant='primary' onClick={()=>setButtonLang('it')}>Hello!</Button>;
     
 }
 
-export default Button;
+export default MyButton;
